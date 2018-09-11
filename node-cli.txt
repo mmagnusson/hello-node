@@ -1,0 +1,16 @@
+npm install *package*
+npm uninstall *package*
+
+npm init -> creates a package.json file.  
+
+npm -i -> in project root, will resolve and fetch necessary packages
+         " This way, you can easily share your code with others without bloating your project and source repositories with dependencies."
+
+npm outdated -> check for package updates 
+
+npm cache clean -> clean up package cache, it is saved so it doesn't need to retretreive by DL
+
+install multiple packages, ex:
+$ npm i express momemt lodash mongoose body-parser webpack
+
+
